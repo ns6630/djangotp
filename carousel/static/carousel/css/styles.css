@@ -1,0 +1,23 @@
+body {
+    margin: 20px 0;
+    background-color: #5aa5d6;
+}
+
+.carousel {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.carousel__slide {
+    box-sizing: border-box;
+    height: 15vw;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.carousel__slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
